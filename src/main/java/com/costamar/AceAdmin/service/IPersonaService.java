@@ -1,8 +1,8 @@
-package com.costamar.AceAdmin.dao;
+package com.costamar.AceAdmin.service;
 
 import com.costamar.AceAdmin.bean.Persona;
 
-public interface PersonaDAO {
+public interface IPersonaService {
 
 	int savePerson(Persona persona);
 
